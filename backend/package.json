@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest",
-    "start": "nodemon index.js"
+    "start": "nodemon index.js",
+    "dev": "node index.js"
+      "build": "echo \"no build step required\""
   },
   "keywords": [],
   "author": "",
