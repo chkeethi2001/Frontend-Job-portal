@@ -8,6 +8,7 @@
     "start": "node index.js",
     "dev": "nodemon index.js",
     "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest"
+    "build": "echo \"No build step needed for backend\""
   },
   "keywords": [],
   "author": "",
